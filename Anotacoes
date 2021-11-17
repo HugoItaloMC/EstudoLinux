@@ -1,0 +1,27 @@
+# Configuracão manual da rede no servidor debian : Testes feitos na OracleVM "debian"
+ - Arquivos : 
+	
+	# - vim /etc/resolv.conf
+		
+		: Responsável por enderecar os DNS da maquina, como teste adicio		 namos os nameserver 8.8.8.8 / nameserver 8.8.8.4
+	
+	# - vim /etc/hotname 
+		
+		: Onde encontra o nomes das host's, podemos alterar o nome de 			 uma host através deste arquivo. 
+		  Nada foi modificado neste arquivo para testes
+	
+	# - vim /etc/hosts 
+
+		: Arquivo     para     indicar      servicos      para     rede,     		 indicando     as      entradas,      como      teste      acrescentamos "192.168.15.100 web.hugolinux.com.br web"
+
+! O linux  primeiramente tenta resolver servicos pelo arquivo /etc/hosts se não houver exito ele tenta no arquivo /etc/resolv.conf .
+
+
+! comandos :
+	- ifconfig (verificar configuracão de rede)
+	- route -n (verifica rotas de rede)
+	# OBS : A partir do debian 9 o ifconfig foi descontinuado
+	#      "apt-get install net-tools" acrescenta os comandos acima
+
+! Arquivos de configuracão de rede : 
+	- vim /etc/network/interfaces
