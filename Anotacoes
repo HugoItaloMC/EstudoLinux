@@ -3,11 +3,11 @@
 	
 	# - vim /etc/resolv.conf
 		
-		: Responsável por enderecar os DNS da maquina, como teste adicio		 namos os nameserver 8.8.8.8 / nameserver 8.8.8.4
+		: Responsável por enderecar os DNS da maquina, como teste adicionamos os nameserver 8.8.8.8 / nameserver 8.8.8.4
 	
 	# - vim /etc/hotname 
 		
-		: Onde encontra o nomes das host's, podemos alterar o nome de 			 uma host através deste arquivo. 
+		: Onde encontra o nomes das host's, podemos alterar o nome de uma host através deste arquivo. 
 		  Nada foi modificado neste arquivo para testes
 	
 	# - vim /etc/hosts 
