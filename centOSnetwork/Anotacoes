@@ -1,0 +1,18 @@
+# Configuracao manual de rede CentOS; Testes na VM CentOS
+
+ - Arquivos : 
+	- # vim /etc/resolv.conf 
+		nameserver 8.8.8.8
+		nameserver 8.8.8.4
+		nameserver 192.168.15.1
+		nemeserver fe80::dac6:78ff:fe28:a078%enp0s3
+	
+	- # vim /etc/sysconfig/network
+		: onde vc define o nome das suas hosts
+	- # vim /etc/hosts 
+		: Onde define os Ip e os dominios de cada host 
+- Comandos : 
+ 	# hostname 
+ 	#
+ 	# dnsdomainname
+ 	#
