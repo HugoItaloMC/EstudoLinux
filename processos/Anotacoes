@@ -1,0 +1,19 @@
+# Gerenciamento de Processos
+ - Comandos :
+	# - ps ax : lista as saídas dos processos filhos
+	# - ps axf : lista as saídas dos processos filhos e pais
+
+
+
+
+
+
+	   : Saídas do comando PS ;
+		- UID : Dono do processo
+		- PID : ID do Processo
+		- PPID : Pai do Processo
+		- STIME : Hora de inicio
+		- TTY : Terminal que processa
+		- TIME : Tempo total de execucão
+		- COMMAND : Comando + argumentos executado.
+ - 
